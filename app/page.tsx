@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { useState } from "react";
 import axios, { AxiosResponse } from "axios";
@@ -13,7 +14,7 @@ export default function Home() {
   const [apiUrl, setApiUrl] = useState<string>("");
   const [httpMethod, setHttpMethod] = useState<HttpMethod>("GET");
   const [requestBody, setRequestBody] = useState<string>("");
-  const [responseData, setResponseData] = useState<any>(null);
+  const [responseData, setResponseData] = useState(null);
   const [error, setError] = useState<string | null>(null);
   const handleApiRequest = async () => {
     try {
