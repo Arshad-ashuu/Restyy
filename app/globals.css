@@ -25,3 +25,12 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: "happy";
+    src: url("/fonts/happy2.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
