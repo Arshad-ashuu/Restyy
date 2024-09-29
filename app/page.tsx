@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import axios, { AxiosResponse } from "axios";
-import Dropdown from "./components/dropdown";
+import Dropdown from "./components/Dropdown";
 import clsx from "clsx";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"; // Import syntax highlighter
 import { tomorrow } from "react-syntax-highlighter/dist/esm/styles/prism"; // Import a theme
